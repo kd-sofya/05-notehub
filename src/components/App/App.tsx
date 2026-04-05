@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useQuery, keepPreviousData } from '@tanstack/react-query';
 import { useDebouncedCallback } from 'use-debounce';
 import css from './App.module.css';
-import { fetchNotes } from '../../services/noteServiсe';
+import { fetchNotes } from '../../services/noteService';
 import NoteList from '../NoteList/Note.List';
 import Pagination from '../Pagination/Pagination';
 import SearchBox from '../Searchbox/SearchBox'
