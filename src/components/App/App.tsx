@@ -5,7 +5,7 @@ import css from './App.module.css';
 import { fetchNotes } from '../../services/noteService';
 import NoteList from '../NoteList/Note.List';
 import Pagination from '../Pagination/Pagination';
-import SearchBox from '../Searchbox/SearchBox'
+import SearchBox from '../SearchBox/SearchBox'
 import Modal from '../Modal/Modal';
 import NoteForm from '../NoteForm/NoteForm';
 
